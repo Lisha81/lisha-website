@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lisha Zhang | Artist & Musician</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(to right, #aad3df, #f5e1f5);
+      color: #222;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    header p {
+      font-style: italic;
+    }
+    nav {
+      background: #444;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .testimonial {
+      background-color: #f3f3f3;
+      padding: 1rem;
+      border-left: 4px solid #aad3df;
+      margin: 1rem 0;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 0.75rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background-color: #aad3df;
+      color: #222;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #f5f5f5;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Lisha Zhang</h1>
+    <p>Artist • Pianist • Flutist</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#blog">Blog</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#resume">Resume</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>Welcome to My World</h2>
+    <p>Welcome to my world of creativity. From exploring different tones of colour and watching it splash onto the canvas, an image is turned into reality. Music is the soul of a human being—we find joy throughout the melodic phrases.</p>
+    <p>I am an artist, pianist, and flutist.</p>
+    <ul>
+      <li>🎨 I paint in both realism and Impressionism using oil paints.</li>
+      <li>🎶 I perform classical music on the piano and flute, and I’ll share videos and recordings on this website.</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <p>A showcase of my paintings and musical performances.</p>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Oil+Painting+1" alt="Oil Painting 1" />
+      <img src="https://via.placeholder.com/300x200?text=Impressionism+Art" alt="Impressionism Art" />
+      <img src="https://via.placeholder.com/300x200?text=Piano+Performance" alt="Piano" />
+      <img src="https://via.placeholder.com/300x200?text=Flute+Recital" alt="Flute" />
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>Blog & Writings</h2>
+    <p>Reflections, process stories, inspirations, and thoughts.</p>
+    <ul>
+      <li><strong>Post Title 1:</strong> The harmony between brushstrokes and rhythm</li>
+      <li><strong>Post Title 2:</strong> Finding stillness in sound and motion</li>
+      <li><strong>Post Title 3:</strong> My journey with Impressionism</li>
+    </ul>
+  </section>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      <p>"Lisha's artwork brings light into every space it’s displayed. Her musical performances are both graceful and powerful." – Art Instructor</p>
+    </div>
+    <div class="testimonial">
+      <p>"Her flute playing is emotionally rich, and her piano interpretations are mature beyond her years." – Music Mentor</p>
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Download my resume below for a full overview of my experience and creative journey.</p>
+    <p><a href="resume.pdf" download>📄 Download Resume (PDF)</a></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you’d like to collaborate, commission a painting, or invite me to perform, feel free to reach out.</p>
+    <p><strong>Email:</strong> <a href="mailto:zhanglis@cggs.vic.edu.au">zhanglis@cggs.vic.edu.au</a></p>
+    <p><strong>Location:</strong> Melbourne, Australia</p>
+
+    <form name="contact" method="POST" data-netlify="true">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Lisha Zhang | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
